@@ -27,6 +27,13 @@
 a.logotype:first-child span {
 	color: #82BA00;
 }
+@media
+only screen and (-webkit-min-device-pixel-ratio : 2) and (orientation:portrait),
+only screen and (min-device-pixel-ratio : 2)  and (orientation:portrait){
+    .logotype {
+        font-size:80%;
+    }
+}
 .boigreen{
 	color: #82BA00;
 }
@@ -58,9 +65,6 @@ body {
 .navbar-toggle {
   background: #82BA00;
 }
-@media (max-width: 640px) {
-                    . navbar-brand{ font-size:80%;}
-     }
 .navbar-default{
   border-top: medium solid #82BA00;
   background: #E2E4E5;	
