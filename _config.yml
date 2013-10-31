@@ -8,12 +8,12 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : Binary Office Tech Blog
+tagline: Electrifying Paper to Power Business
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
+  name : Binary Office Technical Staff
+  email : tech@binaryoffice.com
+  github : BinaryOffice
   twitter : username
   feedburner : feedname
 
