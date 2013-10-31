@@ -58,7 +58,7 @@ body {
 .navbar-toggle {
   background: #82BA00;
 }
-@media only screen and (max-width: 640px) {
+@media (max-width: 640px) {
                     . navbar-brand{ font-size:80%;}
      }
 .navbar-default{
