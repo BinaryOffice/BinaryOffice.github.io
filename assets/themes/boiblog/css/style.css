@@ -37,6 +37,28 @@ only screen and (min-device-pixel-ratio : 2)  and (orientation:portrait){
 .boigreen{
 	color: #82BA00;
 }
+h1 {
+	background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+	text-decoration: none;
+}
+.content  a {
+	color: #82BA00;
+}
+.content  a:hover{
+	background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+	text-decoration: none;
+	//color: #82BA00;
+}
 .boigrey {
 	color: #5A5A5A;
 }
