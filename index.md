@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Sy Kaufax
-tagline: where am i?
+title: Binary Office
+tagline: Electrifing paper to power business
 ---
 {% include JB/setup %}
 
