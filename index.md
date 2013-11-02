@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Binary Office
-tagline: Electrifing paper to power business
+title: Electrifying Paper to Power Business
 ---
 {% include JB/setup %}
 

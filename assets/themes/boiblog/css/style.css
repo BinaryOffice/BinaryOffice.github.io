@@ -50,12 +50,8 @@ h1 {
 	color: #82BA00;
 }
 .content  a:hover{
-	background-color: #666666;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+	opacity: 0.7;
+	/*text-shadow:0px 0px 0 rgb(-125,-69,-255), -1px -1px 0 rgb(-380,-324,-510),-2px -2px 1px rgba(0,0,0,0),-2px -2px 1px rgba(0,0,0,0.5),0px 0px 1px rgba(0,0,0,.2);*/
 	text-decoration: none;
 }
 .boigrey {
