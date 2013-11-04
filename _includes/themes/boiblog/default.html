@@ -15,9 +15,9 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
     <!-- styles -->
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css" rel="stylesheet">-->
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
-
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
     <link rel="shortcut icon" href="images/favicon.ico">
@@ -33,7 +33,7 @@
   </head>
 
   <body>
-	<div class="wrap">
+        <div class="container">	
 		<!-- Fixed navbar -->
 		<div class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
@@ -43,7 +43,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				  </button>
-				  <a class="navbar-brand logotype" href="{{ HOME_PATH }}">Binary<span class=boigreen>Office</span> Tech Blog</a>
+				  <a class="navbar-brand logotype" href="{{ HOME_PATH }}">Binary <span>Office</span></a>
 				</div>
 				<div class="navbar-collapse collapse">
 				  <ul class="nav navbar-nav navbar-right">
@@ -55,15 +55,12 @@
 				<!--/.nav-collapse -->
 			</div>
 			<!-- Fixed navbar -->
-		</div>	
-		<div class="container">
-			<div class="content">{{ content }}</div>
-			  <footer>
-				<p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-				</p>
-			  </footer>
 		</div>
-	</div>
+		<div class="content">{{ content }}</div>
+		<footer>
+			<p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
+		</footer>
+        </div>
     {% include JB/analytics %}
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
