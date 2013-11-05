@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Improving Recognition in TeleForm"
+title: "Improving Field Validation in TeleForm"
 author: "Sy Kaufax"
 description: "Overcoming limitations in field validation in TeleForm."
 category: "TeleForm"
