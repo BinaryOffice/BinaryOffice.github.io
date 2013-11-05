@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Improving Data Validation in TeleForm"
+title: "Improving Data Recognition in TeleForm"
 author: "Sy Kaufax"
-description: "Overcoming limitations in data validations in TeleForm."
+description: "Overcoming limitations in field formats in TeleForm."
 category: "TeleForm"
 tags: ["TeleForm", "Form Processing", "Scripting"]
 comments: false
@@ -16,5 +16,4 @@ To narrow down the possible formats you can create two fields and stack one on t
 <script src="https://gist.github.com/sykaufax/7313211.js">
 </script>
 
-Happy coding!
 
