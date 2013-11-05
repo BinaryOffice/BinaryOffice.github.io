@@ -4,7 +4,8 @@ title: "Improving Recognition in TeleForm"
 author: "Sy Kaufax"
 description: "Overcoming limitations in field validation in TeleForm."
 category: "TeleForm"
-tags: [TeleForm, Form Processing, Scripting]
+tags: ["TeleForm", "Form Processing", "Scripting"]
+comments: false
 ---
 {% include JB/setup %}
 Building on the concept outlined in the [last post](/teleform/2013/11/04/improving-recognition-in-teleform/), we offer another tip to improve field validation: regular expressions. Most people who have dabbled with scripting should have heard of regular expressions, if not, here is a brief summary:

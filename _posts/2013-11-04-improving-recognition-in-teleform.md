@@ -4,7 +4,8 @@ title: "Improving Recognition in TeleForm"
 author: "Sy Kaufax"
 description: "Overcoming limitations in constrained print and comb fields."
 category: "TeleForm"
-tags: [TeleForm, Form Processing, Scripting]
+tags: ["TeleForm", "Form Processing", "Scripting"]
+comments: false
 ---
 {% include JB/setup %}
 Have you ever found yourself wishing that TeleForm had more flexibility in its format options? The standard options for alphanumeric templates do not allow you to <em>"fine tune"</em> when there is more than one valid format. For example: a valid PO number can start with an alpha followed by a number or another alpha. Using the standard format, you would set the template value to "AXNNNN". While this works, recognition will not be as good as it could be.
