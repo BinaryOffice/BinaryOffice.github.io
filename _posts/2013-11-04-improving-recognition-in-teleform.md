@@ -15,3 +15,5 @@ To narrow down the possible formats you can create two fields and stack one on t
 
 <script src="https://gist.github.com/sykaufax/7313211.js"></script>
 
+Happy coding!
+
