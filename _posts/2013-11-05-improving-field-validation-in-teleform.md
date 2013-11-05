@@ -16,13 +16,8 @@ While it is true that TeleForm has no "built-in" support for regular expressions
 
 Let's say that we have a field whose valid value is AX1234B or XBP1234. The regular expression would be: (^AX1234B$)|(^XBP1234$). Add the following code to your form script, changing "My_Field_Name" with the name of the field you're interested in.
 
-```
-require 'Visual Basic'
-	function test() {
-  		console.log("notice the blank line before this function?");
-	}
-```
+<script src="https://gist.github.com/sykaufax/7314115.js">
+</script>
 
-###Hello world
 
 

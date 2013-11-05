@@ -5,7 +5,7 @@
             {% if page.tagline %}<h2>{{page.tagline}}</h2>{% endif %}
         </header>
         <div class="posted">
-            <span>{{ page.date | date_to_long_string }}</span>
+            <p><strong>{{ page.date | date_to_long_string }}</strong></p>
         </div>
         {{ content }}
         <nav>
@@ -26,22 +26,24 @@
     </section>
     <aside>
       {% unless page.tags == empty %}
-		<h6>Tags</h6>
-        <nav class="tags">
-            <ul>
-              {% assign tags_list = page.tags %}
-              {% include JB/tags_list %}
-            </ul>
-        </nav>
+		<div class="container">
+			<nav class="tags">
+				<ul>
+				  {% assign tags_list = page.tags %}
+				  {% include JB/tags_list %}
+				</ul>
+			</nav>
+		</div>
       {% endunless %}  
       {% unless page.categories == empty %}
-		<h6>Categories</h6>
-        <nav class="categories">
-            <ul class="fa-ul">
-              {% assign categories_list = page.categories %}
-              {% include JB/categories_list %}
-            </ul>
-        </nav>
+		<div class="container">
+			<nav class="categories">
+				<ul class="fa-ul">
+				  {% assign categories_list = page.categories %}
+				  {% include JB/categories_list %}
+				</ul>
+			</nav>
+		</div>
       {% endunless %}    
     </aside>
     {% include JB/comments %}

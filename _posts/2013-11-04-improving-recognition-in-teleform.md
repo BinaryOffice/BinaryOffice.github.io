@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Improving Recognition in TeleForm"
+title: "Improving Data Validation in TeleForm"
 author: "Sy Kaufax"
-description: "Overcoming limitations in constrained print and comb fields."
+description: "Overcoming limitations in data validations in TeleForm."
 category: "TeleForm"
 tags: ["TeleForm", "Form Processing", "Scripting"]
 comments: false
@@ -13,7 +13,8 @@ Have you ever found yourself wishing that TeleForm had more flexibility in its f
 ####Consider stacking fields
 To narrow down the possible formats you can create two fields and stack one on top of the other. Finally, add a field on top of those two without any format. Set field 1 to template "AANNNN" and field 2 "ANNNNN". From there, write a simple script that executes in form_evalute.
 
-<script src="https://gist.github.com/sykaufax/7313211.js"></script>
+<script src="https://gist.github.com/sykaufax/7313211.js">
+</script>
 
 Happy coding!
 
