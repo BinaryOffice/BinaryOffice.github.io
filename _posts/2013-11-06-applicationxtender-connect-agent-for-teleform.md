@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "TeleForm 10.8 Released"
-description: "TeleForm is a forms processing application developed by Cardiff Software, an HP company"
-category: "TeleForm"
-tags: [TeleForm, Releases]
+title: "ApplicationXtender Connect Agent for TeleForm"
+description: "Supported export agent for TeleForm to ApplicationXtender"
+category: "ApplicationXtender"
+tags: [ApplicationXtender, TeleForm]
 comments: true
 ---
 {% include JB/setup %}
