@@ -7,16 +7,6 @@ tags: [TeleForm, Releases]
 comments: true
 ---
 {% include JB/setup %}
-TeleForm 10.8 (build 10844) is now available for download, by request, via [ESD](http://esd.autonomy.com/).
-####Summary of new features
-* New OCR and 1-D barcode engines
-* WCO user authentication
-* Job filtering
-* Many other new features, enhancements, and fixes
+If you have upgraded ApplicationXtender to 6.5 or above and found that the included export for TeleForm no longer works, fear not, we have a supported replacement. It requires that the ApplicationXtender document manager be installed on the TeleForm workstation (Reader and Designer) and uses the supported AX API. If you would like more information, please leave a comment or call us at <a href="tel:+14809706900">480-970-6900</a>, select the option for Tech Support and a TeleForm/ApplicationXtender expert will be happy to help.
 
-####Platform Support
-* Windows 8 clients
-* Windows Server 2012
-* SQL Server 2012
-
-<p><a href="https://www.dropbox.com/s/s1chdc0jz04r8dm/TeleForm_10.8_ReleaseNotes.pdf">Download the release notes (PDF)</a></p>
+![Agent screen shot](../img/ax_connect_agent.png)
