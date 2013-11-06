@@ -4,7 +4,7 @@ title: "TeleForm 10.8 Released"
 description: "TeleForm is a forms processing application developed by Cardiff Software, an HP company"
 category: "TeleForm"
 tags: [TeleForm, Releases]
-comments: false
+comments: true
 ---
 {% include JB/setup %}
 TeleForm 10.8 (build 10844) is now available for download, by request, via [ESD](http://esd.autonomy.com/).
