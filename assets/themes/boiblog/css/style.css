@@ -6016,6 +6016,13 @@ td.visible-print {
   font-weight: normal;
   font-style: normal;
 }
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */
+
+}
 .logofontnormal {
   font-family: 'Binary Office';
   color: #5a5a5a;
