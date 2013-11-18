@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Advanced PageLinking in TeleForm"
+title: "Advanced Page Linking in TeleForm"
 description: "Additional techniques to link on multiple fields"
 category: "TeleForm"
 tags: [TeleForm, Scripting, Forms Processing]
